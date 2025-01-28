@@ -54,7 +54,7 @@
       <h1>Billing Details</h1>
     </section>
     <section class="sec1">
-      <form>
+      <form action="checkout.html" method="POST">
         <div class="partone">
           <div class="fname">
             <p>Full Name<span> * </span></p>
@@ -171,7 +171,7 @@
           <div class="payment">
             <div class="bank">
               <div class="one">
-                <input type="radio" id="bank" name="ichi" />
+                <input type="radio" id="bank" name="ichi" required />
                 <p>Bank</p>
               </div>
               <div class="two">
@@ -187,7 +187,7 @@
           </div>
           <div>
             <a href="checkout.html"
-              ><button class="order">Place Order</button></a
+              ><button class="order" type="submit">Place Order</button></a
             >
           </div>
         </div>

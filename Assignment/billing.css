@@ -158,6 +158,10 @@ form {
   border-radius: 8px;
   height: 30px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.order::hover{
+  opacity: 50%;
 }
 .one,
 .two {
