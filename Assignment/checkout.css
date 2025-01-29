@@ -333,4 +333,10 @@ h1 {
 .orderno{
   gap: 10%;
 }
+.check1{
+  font-size: 13px;
+}
+button{
+  font-size: 13px;
+}
 }

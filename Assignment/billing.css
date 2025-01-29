@@ -432,4 +432,17 @@ footer {
   .area {
     margin-left: 100px;
   }
+  .partone p{
+    font-size: 15px;
+  }
+  .box p{
+    margin: 0;
+  }
+  .parttwo p{
+    font-size: 15px;
+  }
+  .order{
+    font-size: 15px;
+    height: 45px;
+  }
 }
