@@ -46,6 +46,7 @@ html,
   border: 0;
   background-color: #f2f2f2;
   border-radius: 10px;
+  padding-left: 5px;
 }
 .icons {
   display: flex;
@@ -59,7 +60,6 @@ html,
   cursor: pointer;
 }
 .g::placeholder {
-  padding-left: 10px;
   font-size: 10px;
 }
 .area {
@@ -318,7 +318,11 @@ footer {
   border-radius: 50%;
 }
 .g::placeholder {
-  padding-left: 10px;
+  font-size: 10px;
+}
+.coupon input{
+  padding-left: 15px;
+  border: 0;
 }
 .media {
   display: flex;
@@ -428,7 +432,6 @@ footer {
   }
   .g::placeholder {
     font-size: 10px;
-    padding-left: 10px;
   }
   .logsearch {
     padding: 30px 10.5px 30px 10.5px;
