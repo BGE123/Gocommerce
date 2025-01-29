@@ -54,14 +54,14 @@
       <h1>Billing Details</h1>
     </section>
     <section class="sec1">
-      <form id="billing-form">
+      <form action="checkout.html" id="billing-form">
         <div class="partone">
           <div class="fname">
             <p>Full Name<span> * </span></p>
             <label>
               <input
                 type="text"
-                id="full-name"
+                id="fullname"
                 placeholder="John Doe"
                 class="fullnam"
                 required
@@ -73,7 +73,7 @@
             <label>
               <input
                 type="text"
-                id="addresss"
+                id="address"
                 placeholder="34 Oxford Street, United Kingdom"
                 class="add"
                 required
@@ -187,7 +187,9 @@
             </div>
           </div>
           <div>
-              <button class="order" id="placeOrderBtn" type="submit">Place Order</button>
+            <a href="checkout.html"
+              ><button class="order" type="submit">Place Order</button></a
+            >
           </div>
         </div>
       </form>

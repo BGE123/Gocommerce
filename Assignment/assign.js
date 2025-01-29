@@ -42,7 +42,7 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
     let address = encodeURIComponent(document.getElementById("addresss").value);
-    window.location.href = "checkout.html?address=" + address;
+    window.location.href = "checkout.html"
   });
 
 function getQueryParam(param) {
@@ -65,7 +65,7 @@ window.onload = function () {
 };
 document.addEventListener("DOMContentLoaded", function () {
   function updateTotal() {
-    let items = document.querySelectorAll(".row1"); 
+    let items = document.querySelectorAll(".row1");
     let subtotal = 0;
 
     items.forEach((item) => {
@@ -89,5 +89,5 @@ document.addEventListener("DOMContentLoaded", function () {
     input.addEventListener("change", updateTotal);
   });
 
-  updateTotal(); 
+  updateTotal();
 });
