@@ -53,6 +53,14 @@ html,
   flex-direction: row;
   gap: 5px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="radio"] {
+  accent-color: black; 
+}
 .g::placeholder {
   font-size: 10px;
 }
@@ -160,7 +168,7 @@ form {
   margin-bottom: 20px;
   cursor: pointer;
 }
-.order::hover{
+.order::hover {
   opacity: 50%;
 }
 .one,
@@ -432,16 +440,16 @@ footer {
   .area {
     margin-left: 100px;
   }
-  .partone p{
+  .partone p {
     font-size: 15px;
   }
-  .box p{
+  .box p {
     margin: 0;
   }
-  .parttwo p{
+  .parttwo p {
     font-size: 15px;
   }
-  .order{
+  .order {
     font-size: 15px;
     height: 45px;
   }

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="billing.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="assign.js"></script>
+    <script src="billing.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
@@ -97,8 +97,8 @@
             <p>Card Number<span> * </span></p>
             <label>
               <input
-                type="number"
-                id="cardnum"
+                type="tel"
+                id="card-number"
                 placeholder="1234-5678-9101"
                 class="cardn"
                 required
@@ -111,8 +111,8 @@
               <label>
                 <input
                   type="text"
-                  id="exdate"
-                  placeholder="12/03/2004"
+                  id="expiry-date"
+                  placeholder="12/04"
                   class="epdate"
                   required
                 />
@@ -122,11 +122,13 @@
               <p>CVV <span> * </span></p>
               <label>
                 <input
-                  type="number"
+                  type="tel"
                   id="cvv"
                   placeholder="123"
                   class="cv"
                   required
+                  maxlength="3"
+                  pattern="\d{3}"
                 />
               </label>
             </div>
@@ -187,9 +189,7 @@
             </div>
           </div>
           <div>
-            <a href="checkout.html"
-              ><button class="order" type="submit">Place Order</button></a
-            >
+            <button class="order" type="submit">Place Order</button>
           </div>
         </div>
       </form>
