@@ -5,7 +5,8 @@ html,
   margin: 0;
   font-family: "Poppins";
 }
-.body, html {
+.body,
+html {
   width: 100%;
   height: 100vw;
   overflow-x: hidden;
@@ -584,7 +585,7 @@ footer {
   width: 16px;
   height: 16px;
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 6px;
   cursor: pointer;
 }
@@ -674,14 +675,7 @@ footer {
 
   .desc,
   .rating {
-    /* font-size: 16px; */
-    /* font-weight: 500; *   }
-  .items2 {
-    /* display: flex
-; */
-    /* flex-direction: column; */
     gap: 40px;
-    /* padding-bottom: 40px; */
   }
   .fontsmall {
     font-size: 8px;
@@ -891,6 +885,9 @@ footer {
   .m {
     align-items: unset;
   }
+  .pointer {
+    right: 30px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .first {
@@ -948,7 +945,6 @@ footer {
     width: 100vw;
     justify-content: center;
     padding-bottom: 70px;
-
   }
   .gamepad,
   .keyboard,

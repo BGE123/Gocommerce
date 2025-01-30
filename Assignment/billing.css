@@ -319,9 +319,6 @@ footer {
   height: 40px;
   align-items: center;
 }
-.fontsmall {
-  font-size: 8px;
-}
 .codes {
   display: flex;
   flex-direction: row;
@@ -383,6 +380,17 @@ footer {
   }
   .searchbar {
     width: 80%;
+  }
+  .pointer {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 29px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .fontsmall{
+    font-size: 8px;
   }
 }
 @media screen and (min-width: 1024px) {
