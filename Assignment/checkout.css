@@ -47,7 +47,6 @@ html,
   background-color: #f2f2f2;
   border-radius: 10px;
   padding-left: 5px;
-
 }
 .icons {
   display: flex;
@@ -234,9 +233,6 @@ footer {
   font-size: 5px;
   align-items: center;
 }
-.fontsmall {
-  font-size: 8px;
-}
 .codes {
   display: flex;
   flex-direction: row;
@@ -265,7 +261,15 @@ footer {
   top: 4px;
   cursor: pointer;
 }
+@media screen and (max-width: 431px) {
+  .fontsmall {
+    font-size: 8px;
+  }
+}
 @media screen and (min-width: 768px) {
+  .pointer {
+    right: 30px;
+  }
   .searchbar {
     width: 80%;
   }
@@ -298,46 +302,49 @@ footer {
   }
 }
 @media screen and (min-width: 1024px) {
-.searchbar {
-  margin-left: 70px;
-  height: 5vh;
-}
-.searchbar input {
-  height: 100%;
-}
-.goco {
-  font-size: 18px;
-  margin-left: 20px;
-  font-weight: 600;
-}
-.sicon {
-  top: 25%;
-}
-.icons {
-  margin-right: 40px;
-  gap: 15px;
-}
-.check1 {
-  width: 60%;
-  height: 45vh;
-  gap: 8%;
-}
-.orderno, .subtotal, .devby, .devto{
-  width: 100%;
-}
-h1 {
-  margin: 0 0 30px 130px;
-}
-.area {
-  margin-left: 20px;
-}
-.orderno{
-  gap: 10%;
-}
-.check1{
-  font-size: 13px;
-}
-button{
-  font-size: 13px;
-}
+  .searchbar {
+    margin-left: 70px;
+    height: 5vh;
+  }
+  .searchbar input {
+    height: 100%;
+  }
+  .goco {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  .sicon {
+    top: 25%;
+  }
+  .icons {
+    margin-right: 40px;
+    gap: 15px;
+  }
+  .check1 {
+    width: 60%;
+    height: 45vh;
+    gap: 8%;
+  }
+  .orderno,
+  .subtotal,
+  .devby,
+  .devto {
+    width: 100%;
+  }
+  h1 {
+    margin: 0 0 30px 130px;
+  }
+  .area {
+    margin-left: 20px;
+  }
+  .orderno {
+    gap: 10%;
+  }
+  .check1 {
+    font-size: 13px;
+  }
+  button {
+    font-size: 13px;
+  }
 }
